@@ -1,6 +1,6 @@
-body{background: black;}
+body{background: white;}
 
 .row{
   max-width: 95%;
-margin-left: 2.5%;
+  margin-left: 2.5%;
 }
