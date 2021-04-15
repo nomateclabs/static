@@ -1,1 +1,6 @@
 body{background: black;}
+
+.row{
+  max-width: 90%;
+margin-left: 2.5%;
+}
