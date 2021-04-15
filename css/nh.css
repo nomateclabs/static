@@ -11,6 +11,10 @@ body{background: white;}
 
 }
 
+.with-sidenav #main-content {
+    max-width: 95%;
+    margin-left: 2.5%;
+}
 
 .top-bar {
     display: block;
@@ -24,4 +28,9 @@ body{background: white;}
 .fixed .top-bar {
     margin-top: 0;
 
+}
+
+
+button.round, .button.round, a.buynow, #banner .box li .button {
+    border-radius: 4px;
 }
