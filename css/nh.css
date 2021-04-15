@@ -1,35 +1,10 @@
 body{background: white;}
 
-.row{
-  max-width: 95%;
-  margin-left: 2.5%;
-}
 
 
 .bkg3 {
-    max-width: 95%;
-
+    border-radius: 0!important;
 }
-
-.with-sidenav #main-content {
-    max-width: 95%;
-    margin-left: 2.5%;
-}
-
-.top-bar {
-    display: block;
-    width: 100%;
-    left: 0;
-    position: inherit;
-    margin-bottom: 1rem;
-}
-
-
-.fixed .top-bar {
-    margin-top: 0;
-
-}
-
 
 button.round, .button.round, a.buynow, #banner .box li .button {
     border-radius: 4px;
