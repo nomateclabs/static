@@ -3,7 +3,7 @@ import { utils } from './nh_utils.mjs';
 
 try {
 
-  let item = x('div', {class: 'fa fa-chevron-up t-top'})
+  let item = x('div', {class: 'icon-chevron-up t-top'})
 
   window.addEventListener('scroll', utils.debounce(function(evt){
 

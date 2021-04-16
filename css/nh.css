@@ -24,8 +24,8 @@ button.round, .button.round, a.buynow, #banner .box li .button {
 .t-top{
   height: 50px;
   width: 50px;
-  background: rgb(0 0 0);
-  color: white;
+  background: rgb(255 255 255 / 70%);
+  color: black;
   box-shadow: 0 0 6px black;
   font-size: 28px;
   position: fixed;
@@ -38,7 +38,7 @@ button.round, .button.round, a.buynow, #banner .box li .button {
 }
 
 .t-top:hover{
-  box-shadow: 0 0 10px;
+  box-shadow: 0 0 10px black;
 }
 
 /**/
