@@ -4,10 +4,6 @@ body{
 
 body{background: white;}
 
-.row {
-    max-width: none!important;
-}
-
 .bkg3 {
     border-radius: 0!important;
 }
@@ -64,7 +60,4 @@ button.round, .button.round, a.buynow, #banner .box li .button {
     width: 100%;
 }
 
-.bkg3 {
-    max-width: none;
-}
 /**/
