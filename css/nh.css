@@ -42,4 +42,7 @@ button.round, .button.round, a.buynow, #banner .box li .button {
   box-shadow: 0 0 10px black;
 }
 
+.hidden{
+  display: none;
+}
 /**/
