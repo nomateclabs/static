@@ -51,4 +51,17 @@ button.round, .button.round, a.buynow, #banner .box li .button {
 .hidden{
   display: none;
 }
+
+.top-bar {
+    border-radius: 0;
+}
+
+.fixed .top-bar {
+    border: 1px solid black;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+}
+
 /**/
