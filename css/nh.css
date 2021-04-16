@@ -1,6 +1,9 @@
 
 body{background: white;}
 
+.row {max-width: none!important;}
+.bkg3{max-width: none!important;}
+
 .bkg3 {
     border-radius: 0!important;
 }
