@@ -9,3 +9,16 @@ body{background: white;}
 button.round, .button.round, a.buynow, #banner .box li .button {
     border-radius: 4px;
 }
+
+::-webkit-scrollbar {
+  z-index: 30;
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(80, 80, 80);
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/**/
