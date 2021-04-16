@@ -28,3 +28,7 @@ try {
 } catch (err) {
 
 }
+
+let topnav = x('div',{class: 'topnav'})
+
+document.getElementById('pagewrap').prepend(topnav);
