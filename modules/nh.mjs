@@ -1,7 +1,25 @@
-console.log('hello world')
+import { x } from './xscript.mjs';
+import { utils } from './nh_utils.mjs';
 
 try {
+
+  let item = x('div', {class: 'fa fa-chevron-up t-top'})
+
+  window.addEventListener('scroll', utils.debounce(function(evt){
+
+     let top = window.pageYOffset || document.scrollTop;
+     if(top === NaN || !top){
+       item.classList.add('hidden');
+     } else if(item.classList.contains('hidden')){
+       item.classList.remove('hidden');
+     }
+     top = null;
+     return;
+  }, 250))
+
+  document.body.append(item);
   document.getElementsByClassName('footer-end')[0].firstElementChild.firstChild.textContent = '© Copyright 2021 ';
+
 } catch (err) {
 
 }
