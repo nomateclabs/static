@@ -24,7 +24,7 @@ try {
 
   document.body.append(item);
   document.getElementsByClassName('footer-end')[0].firstElementChild.firstChild.textContent = '© Copyright 2021 ';
-
+  document.body.style.display = 'block'
 } catch (err) {
 
 }
