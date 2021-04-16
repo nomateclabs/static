@@ -3,7 +3,12 @@ import { utils } from './nh_utils.mjs';
 
 try {
 
-  let item = x('div', {class: 'icon-chevron-up t-top'})
+  let item = x('div', {
+    class: 'icon-chevron-up t-top',
+    onclick(){
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  })
 
   window.addEventListener('scroll', utils.debounce(function(evt){
 
