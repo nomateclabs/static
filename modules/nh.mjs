@@ -30,6 +30,17 @@ try {
 
 }
 
-let topnav = x('div',{class: 'topnav'})
+let topnav = x('div',{class: 'topnav'},
+    x('div', {class: 'r-head'},
+      x('div', {class: 'social-icon'},
+        x('a', {
+          class: 'facebook',
+          title: 'facebook',
+          href: 'https://www.facebook.com/Nomatec-Hosting-102974335265204',
+          target:'_blank'
+        })
+      )
+    )
+  )
 
 document.getElementById('pagewrap').prepend(topnav);
