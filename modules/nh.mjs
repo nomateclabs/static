@@ -53,3 +53,15 @@ let topnav = x('div',{class: 'topnav'},
   )
 
 document.getElementById('pagewrap').prepend(topnav);
+document.getElementById('our-id').parentNode.append(
+  x('li', {class: 'footer-email'},
+    x('i', {class: 'icon-envelope-alt'},
+      x('a', {href: 'mailto://sales@nomatechosting.com'}, 'sales@nomatechosting.com')
+    )
+  ),
+  x('li', {class: 'footer-email'},
+    x('i', {class: 'icon-envelope-alt'},
+      x('a', {href: 'mailto://support@nomatechosting.com'}, 'support@nomatechosting.com')
+    )
+  )
+)
