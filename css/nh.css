@@ -2,11 +2,6 @@
 body{background: white;}
 
 .row {max-width: none!important;}
-.bkg3{max-width: none!important;}
-
-.bkg3 {
-    border-radius: 0!important;
-}
 
 button.round, .button.round, a.buynow, #banner .box li .button {
     border-radius: 4px;
@@ -69,6 +64,7 @@ button.round, .button.round, a.buynow, #banner .box li .button {
   height: 50px;
   background: #232929;
   display: flex;
+  box-shadow: 0 0 6px;
 }
 
 .l-head{
@@ -89,7 +85,14 @@ button.round, .button.round, a.buynow, #banner .box li .button {
     box-shadow: 0 0 6px;
 }
 
-.bkg3 {
+.bkg3{
+    max-width: none!important;
+    border-radius: 0!important;
     background-color: #000000;
-    box-shadow: 0 0 6px #000000;
+    box-shadow: 0 0 6px #000000!important;
+}
+
+.content-row {
+  border-top: 1px solid #232929;
+    width: 90%;
 }
