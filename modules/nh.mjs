@@ -31,6 +31,7 @@ try {
 }
 
 let topnav = x('div',{class: 'topnav'},
+    x('div', {class: 'l-head'}),
     x('div', {class: 'r-head'},
       x('div', {class: 'social-icon'},
         x('a', {
