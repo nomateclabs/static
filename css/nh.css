@@ -68,6 +68,7 @@ button.round, .button.round, a.buynow, #banner .box li .button {
   width: 100%;
   height: 50px;
   background: #232929;
+  display: flex;
 }
 
 .l-head{
@@ -78,4 +79,7 @@ button.round, .button.round, a.buynow, #banner .box li .button {
 .r-head{
   width: 50%;
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
 }
