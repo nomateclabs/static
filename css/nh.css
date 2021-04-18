@@ -83,3 +83,13 @@ button.round, .button.round, a.buynow, #banner .box li .button {
   justify-content: flex-end;
   padding-right: 30px;
 }
+
+
+.box-wrap.row.promo-service:first-of-type, .box-wrap.row.bkg5:first-of-type, .bkg2 {
+    box-shadow: 0 0 6px;
+}
+
+.bkg3 {
+    background-color: #000000;
+    box-shadow: 0 0 6px #000000;
+}
