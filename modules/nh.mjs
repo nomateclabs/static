@@ -40,6 +40,14 @@ let topnav = x('div',{class: 'topnav'},
           href: 'https://www.facebook.com/Nomatec-Hosting-102974335265204',
           target:'_blank'
         })
+      ),
+      x('div', {class: 'social-icon'},
+        x('a', {
+          class: 'twitter',
+          title: 'twitter',
+          href: 'https://twitter.com/nomatechosting',
+          target:'_blank'
+        })
       )
     )
   )
